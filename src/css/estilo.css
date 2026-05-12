@@ -2,5 +2,74 @@
     --BgColor: rgb(115, 44, 161);
     --CellphoneBorderColor: black;
     --FontColor: white;
-    --BgColorCamera: rgb(63, 63, 63);
+    --BgColorCamera: rgb(49, 49, 49);
+}
+body{
+    background-color: var(--BgColor);
+}
+.celular{
+    margin: auto;
+    border-color: var(--CellphoneBorderColor);
+    border: solid, 1.2em;
+    display: flex;
+    height: 51em;
+    width: 30em;
+    border-radius: 10%;
+    flex-direction: column;
+    /*
+    background-color: var(--CellphoneBorderColor);
+    
+    align-items: center;
+    justify-content: space-between;
+    */
+}
+.configuracoesCima{
+    background-color: var(--BgColorCamera);
+    border-radius: 7% 7% 0 0;
+    height: 15em;
+    width: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.FotoPrincipal{
+    height: 35em;
+    width: 30em;
+}
+.configuracoesBaixo{
+    background-color: var(--BgColorCamera);
+    border-radius: 0 0 7% 7%;
+    height: 15em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+}
+.Modos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2em;
+    color: var(--FontColor);
+}
+.Usabilidades{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.BotaoFoto{
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+}
+.FotoAnterior{
+    height: 5em;
+    width: 5em;
+}
+.GirarCamera{
+    background-color: var(--BgColorCamera);
+    border-radius: 50%;
+}
+.GirarCameraImg{
+    height: 6em;
+    width: 6em;
 }
